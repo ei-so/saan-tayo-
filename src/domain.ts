@@ -1,8 +1,10 @@
 export interface Restaurant {
   id: string; name: string; category: string; cuisines: string[]; lat: number; lng: number;
   distance: number; price: number | null; vegetarian: boolean | null; halal: boolean | null;
-  image: string | null; source: 'demo' | 'osm'; updatedAt: string;
+  image: string | null; source: 'demo' | 'osm' | 'overture'; updatedAt: string;
   website?: string; address?: string; openingHours?: string; contact?: string; sourceURL?: string;
+  provenance?: {source:'osm'|'overture';sourceId:string;url:string;retrievedAt:string;attribution:string;confidence:number|null}[];
+  moderationStatus?: 'unreviewed'|'pending_review'|'approved'|'rejected';
 }
 export interface Preferences {
   budget: number; distance: number; cuisines: string[]; vegetarian: boolean; halal: boolean; allowUnknown: boolean;

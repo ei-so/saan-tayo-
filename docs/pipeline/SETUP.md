@@ -1,0 +1,23 @@
+# Pilot setup and verification
+
+This upgrade preserves local demo, voting, rooms, history, saved places and offline PWA behavior. Existing OSM search remains usable without a cloud database. The current account has no Supabase project; no cloud migrations or scheduling were applied.
+
+1. Run `npm ci`, `npm test`, `npm run build`. API and server TypeScript are included in type checking. Run `python scripts/test_import_overture.py` for importer boundaries. Install `pip install -r scripts/requirements-import.txt` only when fetching a bounded Overture pilot.
+2. Inspect the stored 20 actual Bacolor records with `node scripts/ingest-pilot.mjs`. This defaults to dry-run and makes no network or database changes. The importer itself defaults to dry-run: `python scripts/import_overture.py`. Its explicit `--fetch` selects food records within the bounded bbox with current taxonomy fields; it never imports to a database. It projects needed columns and uses Parquet predicates, but remote queries still transfer metadata and selected ranges: row limits are not an exact network-byte cap.
+3. Once a Supabase project is authorized, apply both versioned migrations using Supabase CLI migrations. Set server-only `SUPABASE_URL` and `SUPABASE_SECRET_KEY` in the local server or Vercel environment. Only after reviewing the bounded data, run `node --env-file=.env.local scripts/ingest-pilot.mjs --apply` to save the 20 normalized source records. Existing room authentication configuration remains separate. Do not share production write credentials with previews; leave server keys absent or use an isolated test database.
+4. Keep `ENRICHMENT_ENABLED=false` and do not run `supabase/install_weekly_enrichment.sql`. No permission rows are supplied. Firecrawl/Gemini keys belong only in server environments, never `VITE_*`, source control or client bundles. To enable future extraction, first document approved URL, permitted content, crawl/reuse/third-party processing scope, expiry and permission reference; approve provider spend and job deployment separately.
+5. Review supported claims in private `saantayo_private.enrichment_jobs` as administrator. The runner stores source hashes and exact supporting excerpts with accepted claims and validation issues. Nothing publishes automatically. The conservative parser accepts explicit labeled lines; ambiguous menus remain pending. Human fact publication is deliberately not implemented until a real permissioned pilot establishes the moderation requirements.
+
+## Local database regression
+
+Against a disposable PostgreSQL 16 database with Supabase roles/auth mocks and both migrations applied, run `supabase/room_security_test.sql` and `supabase/catalog_security_test.sql` through psql with `ON_ERROR_STOP=1`. They roll back fictional fixtures. Run `supabase/catalog_concurrency_test.ps1 -Database <disposable database> -Port <local port>` only on that disposable database; it writes fictional concurrency fixtures. Its two independent sessions compete for 200 claims and assert exactly two jobs/two reservations per provider. This does not test Supabase Auth or Realtime.
+
+## Browser regression
+
+Run the local app and `scripts/browser-pipeline.mjs` with `PLAYWRIGHT_MODULE` pointing to an installed Playwright module. It renders the actual licensed pilot behind a simulated cache response, verifying sources/moderation at desktop and phone widths without live provider calls. Production preview plus `APP_URL=http://localhost:4173 CHECK_OFFLINE=true` runs `scripts/browser-check.mjs` through voting, undo, results, persisted history and offline five-person demo. Adapt environment-variable syntax to the shell; Edge must be installed for these scripts.
+
+## Verified on 15 October 2026
+
+78 TypeScript unit checks and two Python checks passed. Both SQL migrations and both SQL regressions passed on fresh disposable PostgreSQL 16. Two concurrent psql sessions passed the quota/idempotency invariants. Production build/service worker generation and browser workflow regressions passed. npm audit reported zero known vulnerabilities. No Firecrawl/Gemini requests or business website scraping occurred. The actual OSM pilot attempt received HTTP 406 and was stopped; the earlier app's successful OSM result is not presented as a fresh pilot result.
+
+No cloud project, production deployment, weekly job, paid billing or large import was activated. The retained main bundle warning is about 649 KB uncompressed. Gemini and Firecrawl payloads are documented and fixture-tested but remain unverified against paid APIs until explicitly approved. The weekly limits are usage caps, not a guaranteed currency budget.

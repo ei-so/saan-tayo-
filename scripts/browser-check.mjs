@@ -20,7 +20,7 @@ try{
  await page.screenshot({path:'artifacts/discover-mobile.png',fullPage:true});
  if(process.env.CHECK_LIVE==='true'){
   await page.getByRole('button',{name:'Search this area'}).click();
-  await page.getByText(/Found \d+ places from OpenStreetMap/).waitFor({timeout:60000});
+  await page.getByText(/Found \d+ places from open map records/).waitFor({timeout:60000});
   assert(await page.locator('.restaurant').count()>0);
   await page.screenshot({path:'artifacts/discover-live-mobile.png',fullPage:true});
   console.log('PASS: actual Bacolor OSM discovery renders real venues');

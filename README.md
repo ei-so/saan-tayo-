@@ -1,5 +1,11 @@
 # SaanTayo?
 
+## Bacolor discovery and enrichment pipeline
+
+Nearby search merges live OSM with the Supabase catalog and a five-minute shared cache when server credentials are configured. It never calls Firecrawl or Gemini. All AI results remain private pending review; unknown or unreviewed prices and dietary claims cannot become verified matching constraints. Source attribution, retrieval dates, provider confidence and review status appear in place details.
+
+Read [pipeline setup](docs/pipeline/SETUP.md), [backend permission and quota rules](docs/pipeline/BACKEND.md), and [the actual 20-record Bacolor pilot](docs/pipeline/PILOT.md). Migrations and a separate inactive weekly Cron installer are included. No business website is currently approved; `ENRICHMENT_ENABLED=false` keeps all crawling and paid extraction off.
+
 A responsive barkada restaurant decision PWA, initially focused on Bacolor, Pampanga. Paper, charcoal and orange Shared Menu design. Local demo works without keys; its venues are fictional and clearly marked. OSM discovery uses real mapped venues with unknown prices and diets honestly retained.
 
 ## Run and verify

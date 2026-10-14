@@ -1,0 +1,1292 @@
+{
+  "release": "2026-09-23.1",
+  "bbox": [
+    120.64,
+    14.985,
+    120.665,
+    15.01
+  ],
+  "limit": 20,
+  "retrievedAt": "2026-10-14T16:08:04.928323+00:00",
+  "source": "Overture Maps Foundation",
+  "attribution": "CDLA-Permissive-2.0 / Apache-2.0; individual provider licenses retained in sources",
+  "records": [
+    {
+      "id": "663f006c-9c85-47c0-b056-30242598f571",
+      "names": {
+        "primary": "Little Four",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.64537811279297,
+        "xmax": 120.64539337158203,
+        "ymin": 14.991241455078125,
+        "ymax": 14.991243362426758
+      },
+      "taxonomy": {
+        "primary": "cupcake_shop",
+        "hierarchy": [
+          "food_and_drink",
+          "casual_eatery",
+          "dessert_shop",
+          "cupcake_shop"
+        ],
+        "alternates": null
+      },
+      "basic_category": "casual_eatery",
+      "confidence": 0.28970834612846375,
+      "addresses": [
+        {
+          "freeform": "Purok 4",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639922416083"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "100956208013987",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.28970834612846375,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "df87a14f-894f-481a-8c19-7bd704e8f1d3",
+      "names": {
+        "primary": "Keni Bale Grill & Restaurants",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.6517333984375,
+        "xmax": 120.65174865722656,
+        "ymin": 14.988943099975586,
+        "ymax": 14.988945007324219
+      },
+      "taxonomy": {
+        "primary": "filipino_restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant",
+          "asian_restaurant",
+          "southeast_asian_restaurant",
+          "filipino_restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.5111116766929626,
+      "addresses": [
+        {
+          "freeform": "",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": null,
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "368867806476925",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.5111116766929626,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "274fb5ef-bc22-4c75-acb7-101bd411ec77",
+      "names": {
+        "primary": "Yuri’s Pares Mami",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.6513671875,
+        "xmax": 120.65138244628906,
+        "ymin": 14.988897323608398,
+        "ymax": 14.988899230957031
+      },
+      "taxonomy": {
+        "primary": "soup_restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant",
+          "soup_restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.6893999576568604,
+      "addresses": [
+        {
+          "freeform": null,
+          "locality": "Bacolor",
+          "postcode": null,
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639275893118"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1353836614663406",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.6893999576568604,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "64c88364-bb84-4924-b8d6-bedb8d39af1d",
+      "names": {
+        "primary": "Amor sweet creations",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.64984893798828,
+        "xmax": 120.64986419677734,
+        "ymin": 14.988340377807617,
+        "ymax": 14.98834228515625
+      },
+      "taxonomy": {
+        "primary": "cupcake_shop",
+        "hierarchy": [
+          "food_and_drink",
+          "casual_eatery",
+          "dessert_shop",
+          "cupcake_shop"
+        ],
+        "alternates": null
+      },
+      "basic_category": "casual_eatery",
+      "confidence": 0.12776175141334534,
+      "addresses": [
+        {
+          "freeform": "Zone 4 #25",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": [
+        "http://instagram.com/amorsweetcreations"
+      ],
+      "phones": [
+        "+639364747488"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "399345680499859",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.12776175141334534,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "434ad816-4138-44ff-8421-77408a5e5eff",
+      "names": {
+        "primary": "Kapampangan Asan Pakamalan",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.64836883544922,
+        "xmax": 120.64838409423828,
+        "ymin": 15.00135612487793,
+        "ymax": 15.001358032226562
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.9494626522064209,
+      "addresses": [
+        {
+          "freeform": "San Guillermo",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639182866083"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "105502228630116",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.9494626522064209,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "5f1b013a-ed26-4506-a642-23f9ec320174",
+      "names": {
+        "primary": "Seoul Samgy 199 - Bacolor",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.64836883544922,
+        "xmax": 120.64838409423828,
+        "ymin": 15.001259803771973,
+        "ymax": 15.001261711120605
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.2355603128671646,
+      "addresses": [
+        {
+          "freeform": "Stall 5, Barangay RSG Building Cabambangan",
+          "locality": "Bacolor",
+          "postcode": null,
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639912701064"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1107254369139345",
+          "update_time": "2026-08-24T00:00:00.000Z",
+          "confidence": 0.2355603128671646,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-24"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "cca48342-c54c-44d0-9925-732202afa59e",
+      "names": {
+        "primary": "Cindy's Bakery Bacolor Branch",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.64856719970703,
+        "xmax": 120.6485824584961,
+        "ymin": 15.001219749450684,
+        "ymax": 15.001221656799316
+      },
+      "taxonomy": {
+        "primary": "bakery",
+        "hierarchy": [
+          "food_and_drink",
+          "casual_eatery",
+          "bakery"
+        ],
+        "alternates": null
+      },
+      "basic_category": "casual_eatery",
+      "confidence": 0.5302526950836182,
+      "addresses": [
+        {
+          "freeform": "Cabambangan Bacolor",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639278478529"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "102017831345628",
+          "update_time": "2026-08-24T00:00:00.000Z",
+          "confidence": 0.5302526950836182,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-24"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "eaf710c4-44bc-478d-a2ea-14f8ca47a18f",
+      "names": {
+        "primary": "Granda's Sweets and Delicacies",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.64933013916016,
+        "xmax": 120.64934539794922,
+        "ymin": 14.999005317687988,
+        "ymax": 14.999007225036621
+      },
+      "taxonomy": {
+        "primary": "bakery",
+        "hierarchy": [
+          "food_and_drink",
+          "casual_eatery",
+          "bakery"
+        ],
+        "alternates": null
+      },
+      "basic_category": "casual_eatery",
+      "confidence": 0.5970275402069092,
+      "addresses": [
+        {
+          "freeform": "Don Honorio Ventura",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+63454024230"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1903576496549942",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.5970275402069092,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "640aaf27-87bd-42f8-ad16-b063755c2160",
+      "names": {
+        "primary": "Pares Paradise",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.6507339477539,
+        "xmax": 120.65074920654297,
+        "ymin": 14.999526977539062,
+        "ymax": 14.999528884887695
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.7034637331962585,
+      "addresses": [
+        {
+          "freeform": "Don Ceferino St",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639765816163"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "454631664398588",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.7034637331962585,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "627488e5-23fb-4d09-bb33-48f85c1c5b53",
+      "names": {
+        "primary": "Ramyeon Your Way | Your Ramen Shop",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65239715576172,
+        "xmax": 120.65241241455078,
+        "ymin": 14.998865127563477,
+        "ymax": 14.99886703491211
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.20537404716014862,
+      "addresses": [
+        {
+          "freeform": "2nd floor, Chu building, Don Ceferino St",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639682187378"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "361232150413094",
+          "update_time": "2026-08-24T00:00:00.000Z",
+          "confidence": 0.20537404716014862,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-08-24"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "91db7a71-c598-49c2-9501-f897f793f5dd",
+      "names": {
+        "primary": "Hooo Taho Bacolor Branch",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65242004394531,
+        "xmax": 120.65243530273438,
+        "ymin": 14.998866081237793,
+        "ymax": 14.998867988586426
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.3899792432785034,
+      "addresses": [
+        {
+          "freeform": "Don Ceferino Joven",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": null,
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "108744151649713",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.3899792432785034,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "87a59861-3178-4dd6-b4e0-c12b69edf216",
+      "names": {
+        "primary": "The Crunch Cabambangan Bacolor",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65245056152344,
+        "xmax": 120.6524658203125,
+        "ymin": 14.998867988586426,
+        "ymax": 14.998869895935059
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.29063984751701355,
+      "addresses": [
+        {
+          "freeform": "Don Ceferino Joven",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": [
+        "http://www.thecrunchph.com/"
+      ],
+      "phones": [
+        "+639650341999"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "392643057268459",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.29063984751701355,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "625be08d-f547-482d-8192-2e4e6986e542",
+      "names": {
+        "primary": "Five Star",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65219116210938,
+        "xmax": 120.65220642089844,
+        "ymin": 14.998854637145996,
+        "ymax": 14.998856544494629
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.39477741718292236,
+      "addresses": [
+        {
+          "freeform": "",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639196242015"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "102558572571700",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.39477741718292236,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "b03ed12d-58f0-4533-ae65-3e588d4814a3",
+      "names": {
+        "primary": "Meat-With-U Bacolor Samgyupsal House",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65233612060547,
+        "xmax": 120.65235137939453,
+        "ymin": 14.998749732971191,
+        "ymax": 14.998751640319824
+      },
+      "taxonomy": {
+        "primary": "korean_restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant",
+          "asian_restaurant",
+          "east_asian_restaurant",
+          "korean_restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.7009792327880859,
+      "addresses": [
+        {
+          "freeform": "Cabambangan, Bacolor (at the back of the Bank of Florida beside PSU Gate 3). ",
+          "locality": "Bacolor",
+          "postcode": null,
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": [
+        "https://maps.app.goo.gl/Lk7QQtHptQ4jscHH7?g_st=ic"
+      ],
+      "phones": [
+        "+639760981875"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "824843347369717",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.7009792327880859,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "d80d8e34-8aea-436d-abb1-4d16bc2cecf8",
+      "names": {
+        "primary": "Bacolor 1576 Grill House and Restaurant",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65100860595703,
+        "xmax": 120.6510238647461,
+        "ymin": 14.99954605102539,
+        "ymax": 14.999547958374023
+      },
+      "taxonomy": {
+        "primary": "seafood_restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant",
+          "seafood_restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.5910798907279968,
+      "addresses": [
+        {
+          "freeform": "Cabambangan",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": [
+        "http://www.bacolor1576.blogspot.com/"
+      ],
+      "phones": [
+        "+639228618497"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "161856177176878",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.5910798907279968,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "98736606-cade-447e-9625-234b472d939a",
+      "names": {
+        "primary": "Chong’s Inasal - Bacolor",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65261840820312,
+        "xmax": 120.65263366699219,
+        "ymin": 14.999565124511719,
+        "ymax": 14.999567031860352
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.8024258613586426,
+      "addresses": [
+        {
+          "freeform": "Bgry. San Vicencte",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": null,
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "499841576549625",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.8024258613586426,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "59431902-15a4-4722-8aca-1cac38e02739",
+      "names": {
+        "primary": "Cuffy Cafe",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.6524658203125,
+        "xmax": 120.65248107910156,
+        "ymin": 14.9998197555542,
+        "ymax": 14.999821662902832
+      },
+      "taxonomy": {
+        "primary": "cafe",
+        "hierarchy": [
+          "food_and_drink",
+          "casual_eatery",
+          "cafe"
+        ],
+        "alternates": null
+      },
+      "basic_category": "cafe",
+      "confidence": 0.4586343765258789,
+      "addresses": [
+        {
+          "freeform": "Brgy, McArthur Highway",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639566937534"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "165601226644188",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.4586343765258789,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "66f764e6-84e4-4bb4-bb7c-1b4833004b14",
+      "names": {
+        "primary": "Ikay's Seafood and Grill",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65263366699219,
+        "xmax": 120.65264892578125,
+        "ymin": 14.999383926391602,
+        "ymax": 14.999385833740234
+      },
+      "taxonomy": {
+        "primary": "seafood_restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant",
+          "seafood_restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.6857596039772034,
+      "addresses": [
+        {
+          "freeform": "Jose Abad Santos Ave",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639359804042"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "100476542351009",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.6857596039772034,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "0c4c32c9-7fea-4cb5-b7f9-8e0b0928dbf3",
+      "names": {
+        "primary": "Minute Burger",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65272521972656,
+        "xmax": 120.65274047851562,
+        "ymin": 14.999044418334961,
+        "ymax": 14.999046325683594
+      },
+      "taxonomy": {
+        "primary": "restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "restaurant",
+      "confidence": 0.302523672580719,
+      "addresses": [
+        {
+          "freeform": "",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": null,
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "1759500354267349",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.302523672580719,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "id": "8969490a-26aa-4537-9bf0-092ac9d3b603",
+      "names": {
+        "primary": "Lelut Tambayan",
+        "common": null,
+        "rules": null
+      },
+      "bbox": {
+        "xmin": 120.65302276611328,
+        "xmax": 120.65303802490234,
+        "ymin": 15.001313209533691,
+        "ymax": 15.001315116882324
+      },
+      "taxonomy": {
+        "primary": "fast_food_restaurant",
+        "hierarchy": [
+          "food_and_drink",
+          "casual_eatery",
+          "fast_food_restaurant"
+        ],
+        "alternates": null
+      },
+      "basic_category": "fast_food_restaurant",
+      "confidence": 0.2759280800819397,
+      "addresses": [
+        {
+          "freeform": "Purok 1, Highway, San Vicente, Bacolor Pampanga",
+          "locality": "Bacolor",
+          "postcode": "2001",
+          "region": null,
+          "country": "PH"
+        }
+      ],
+      "websites": null,
+      "phones": [
+        "+639451994617"
+      ],
+      "sources": [
+        {
+          "property": "",
+          "dataset": "meta",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": "100783456269941",
+          "update_time": "2026-09-14T00:00:00.000Z",
+          "confidence": 0.2759280800819397,
+          "between": null,
+          "provider": "meta",
+          "resource": "meta",
+          "version": "2026-09-14"
+        },
+        {
+          "property": "/properties/confidence",
+          "dataset": "Overture",
+          "license": "CDLA-Permissive-2.0",
+          "record_id": null,
+          "update_time": "2026-09-17T22:52:12Z",
+          "confidence": null,
+          "between": null,
+          "provider": "overture",
+          "resource": "confidence_calculation",
+          "version": "2026-09-17"
+        }
+      ]
+    }
+  ]
+}

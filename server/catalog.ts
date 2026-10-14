@@ -1,0 +1,10 @@
+import {createClient} from '@supabase/supabase-js'
+import type {PlaceRecord} from './places.js'
+export function serverDatabase(){const url=process.env.SUPABASE_URL,key=process.env.SUPABASE_SECRET_KEY;if(!url||!key)return null;return createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}})}
+export async function catalogAction(action:string,args:Record<string,unknown>={}){const db=serverDatabase();if(!db)throw new Error('Server database is not configured');const {data,error}=await db.rpc('saantayo_catalog',{action,args});if(error)throw new Error(error.message);return data}
+function location(lat:number,lng:number,radius:number){if(![lat,lng,radius].every(Number.isFinite)||Math.abs(lat)>90||Math.abs(lng)>180||radius<=0||radius>10)throw new Error('Invalid search location');return{lat,lng,radius}}
+export async function readNearby(lat:number,lng:number,radius:number):Promise<PlaceRecord[]>{const args=location(lat,lng,radius);if(!serverDatabase())return[];return await catalogAction('nearby',args)}
+export async function ingestPlaces(records:PlaceRecord[]):Promise<void>{if(!serverDatabase())throw new Error('Server database is not configured');if(records.length>100)throw new Error('Pilot import maximum is 100 records');await catalogAction('ingest',{records})}
+export async function getCachedDiscovery(lat:number,lng:number,radius:number):Promise<PlaceRecord[]|null>{const args=location(lat,lng,radius);if(!serverDatabase())return null;return await catalogAction('cache_read',{key:JSON.stringify(args)})}
+export async function putCachedDiscovery(lat:number,lng:number,radius:number,records:PlaceRecord[]):Promise<void>{const args=location(lat,lng,radius);if(!serverDatabase())return;await catalogAction('cache_write',{key:JSON.stringify(args),records})}
+export async function consumeSearchQuota(ipHash:string):Promise<boolean>{if(!/^[a-f0-9]{64}$/.test(ipHash))throw new Error('Hashed IP required');if(!serverDatabase())return true;return await catalogAction('search_quota',{hash:ipHash})}

@@ -10,3 +10,6 @@ domain-test.config.mjs
 supabase/.temp/
 artifacts/
 assets/
+
+__pycache__/
+*.pyc
